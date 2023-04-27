@@ -1,7 +1,7 @@
 # Mobilicis-India---Assignment-Nodejs
 The data is stored in a MongoDB database and has the following structure:
 
-{
+```{
   "_id": {
     "$oid": "64465f87154a549c67918ec5"
   },
@@ -47,4 +47,4 @@ To run the queries, connect to the MongoDB database using a mongoose packages
     - We can then use the `$sort` operator to sort the results by count and limit the output to the top 10 cities using the `$limit` operator.
     - Finally, we can use the `$project` operator to reshape the output and include only the city name, count, and average income fields.
 
-## Frontend i am using to show the all the query out using table ant design table
+## I am using ReactJS to display the query results in a table format, utilizing the Ant Design table component for the frontend.
