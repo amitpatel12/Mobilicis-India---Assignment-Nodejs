@@ -1,7 +1,7 @@
 # Mobilicis-India---Assignment-Nodejs
 The data is stored in a MongoDB database and has the following structure:
 
-```mongodb
+
 {
   "_id": {
     "$oid": "64465f87154a549c67918ec5"
@@ -16,7 +16,7 @@ The data is stored in a MongoDB database and has the following structure:
   "car": "Mazda",
   "quote": "innovate dynamic partnerships",
   "phone_price": "26859"
-}```
+}
 
 To run the queries, connect to the MongoDB database using a mongoose packages
 
